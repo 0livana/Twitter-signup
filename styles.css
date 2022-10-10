@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#main{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: rgb(29,155,240);
+}
+    /* STYLES FOR FIRST */
+
+#first{
+    display: flex;
+    background: url(pics1.png);
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+}#first img{
+    width: 40%;
+
+    /* STYLES FOR SECOND */
+}
+#second{
+    width: 45%;
+    padding: 35px 36px;
+}
+#second img{
+    width: 60px;
+}
+h1{
+    font-size: 64px;
+    letter-spacing: -1.2px;
+    margin: 48px 0
+}
+h2{
+    font-size: 31px;
+    letter-spacing: -1.2px;
+    margin: 34px 0;
+}
+h3{
+    margin-bottom: 20px;
+}
+#second a img{
+    width: 20px;
+    margin:0 10px;
+}
+p{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#small{
+    width: 300px;
+    height: 70px;
+    font-size: 11px;
+    line-height: 12px;
+    color: rgb(83, 100, 113);
+    text-align: left;
+
+}
+
+/* STYLES for button */
+
+button{
+    background: none;
+    border: 1px solid gray;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 12px;
+    padding: 0 12px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    letter-spacing: 0.25px;
+    outline: none;
+}
+button:hover{
+    border-color: rgb(207, 217, 222);
+    background-color: rgb(207, 217, 222);
+}
+#signup{
+    background: rgb(29, 155, 240);
+    color: white;
+}
+#signin{
+    color: rgb(29, 155, 240);
+}
+/* STYLES FOR NAV */
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+   
+}
+nav a li:hover{
+    text-decoration: underline;
+}
+nav ul li{
+    color: rgb(83, 100, 113);
+    text-decoration: none;
+    font-size: 13px;
+    flex-grow: 1;
+}
